@@ -1,0 +1,60 @@
+#new-book-btn{
+    display: block;
+    margin: 0 auto;
+    background: blue;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 20px;
+    font-size: 20px;
+}
+
+form{
+    width: 500px;
+    margin: 50px auto;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0, 0.1);
+}
+
+#new-book-form{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    justify-content: space-around;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: Italic, sans-serif;    
+}
+
+form input{
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 35px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+input[type="submit"]{
+    
+}
+
+
+
+@media screen and (max-width: 1200px){
+    #new-book-form{
+        width: 250px;
+    }
+
+}
+
+@media screen and (max-width: 992px){
+    #new-book-form{
+        width: 250px;
+    }
+}
