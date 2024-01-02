@@ -1,4 +1,4 @@
-#new-book-btn{
+#new-book-btn {
     display: block;
     margin: 0 auto;
     background: blue;
@@ -10,51 +10,106 @@
     font-size: 20px;
 }
 
-form{
+form {
     width: 500px;
     margin: 50px auto;
     text-align: center;
     padding: 20px;
     border: 1px solid #ddd;
     border-radius: 10px;
-    box-shadow: 2px 2px 5px rgb(0, 0, 0, 0.1);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-#new-book-form{
-    height: 400px;
+#new-book-form {
+    height: 450px;
     display: flex;
     flex-direction: column;
     padding: 25px;
     justify-content: space-around;
     font-weight: 600;
     font-size: 20px;
-    font-family: Italic, sans-serif;    
+    font-family: 'Italic', sans-serif;
 }
 
-form input{
+form input {
     border: 1px solid black;
     border-radius: 10px;
     height: 35px;
     font-size: 15px;
     font-weight: bold;
     cursor: pointer;
+    margin-bottom: 10px;
 }
 
-input[type="submit"]{
-    
+input[type="submit"] {
+    background: black;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0 30px;
+    height: 50px;
 }
 
+input[type="checkbox"] {
+    transform: scale(0.8); 
+}
 
+.book-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 200px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .card-header {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .title {
+    margin: 0;
+    font-size: 22px;
+  }
+  
+  .author {
+    margin: 0;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .card-body p {
+    margin: 5px 0;
+  }
+  
+  .read-status {
+    font-weight: bold;
+  }
 
-@media screen and (max-width: 1200px){
-    #new-book-form{
-        width: 250px;
+  .remove-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+
+@media screen and (max-width: 1200px) {
+    #new-book-form {
+        width: 245px;
     }
-
 }
 
-@media screen and (max-width: 992px){
-    #new-book-form{
-        width: 250px;
+@media screen and (max-width: 992px) {
+    #new-book-form {
+        width: 245px;
     }
 }
